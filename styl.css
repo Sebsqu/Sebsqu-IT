@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Century Gothic';
+}
+ 
+header {
+    min-height: 45px;
+}
+
+header img {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a {
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#oko {
+    position: fixed;
+    right: -3px;
+    bottom: 3%;
+    color: black;
+    font-size: 35px;
+}
+
+#omnie {
+    min-height: 700px;
+    background-image: url(photo/omnie.png);
+    background-position: center;
+    padding: 0 10%;
+}
+h1 {
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+#omnie p {
+    font-size: 18px;
+    /*font-weight: 600;*/
+}
+
+#portfolio {
+    min-height: 500px;
+    background-color: white;
+    text-align: center;
+}
+
+#portfolio div {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin: 5px 3%;
+}
+
+#portfolio h1{
+    color: black;
+}
+
+#portfolio div a img{
+    width: 64%;
+    display: block;
+    margin: 0 auto;
+}
+
+#portfolio p{
+    margin: 0 10%;
+    font-size: 18px;
+    
+}
+
+#media {
+    min-height: 250px;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    background-image: url(photo/kontakt.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#media p{
+    margin-bottom: 10px;
+}
+
+#media a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#media a:visited {
+    color: white;
+}
+
+#gallery {
+    min-height: 600px;
+    text-align: center;
+}
+
+#gallery h1 {
+    color: black;
+}
+
+#gallery img{
+    margin-bottom: 6px;
+    width: 80%;
+}
+
+footer {
+    min-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 550px) {
+    h1 {
+        font-size: 26px;
+    }
+    
+    #omnie p {
+        font-size: 22px;
+    }
+
+    #media { 
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    nav ul li a {
+        font-size: 24px;
+    }
+    h1{
+        font-size: 28px;
+    }
+
+    #omnie p {
+        font-size: 24px;
+    }
+
+    #portfolio p {
+        font-size: 20px;
+    }
+
+    #gallery img {
+        width: 46%;
+    }
+    
+}
+
+@media (min-width: 1024px) { 
+    #media a:hover{
+        color: orangered;
+    }
+    
+    header img {
+        width: 20%;
+        
+    }
+
+    #oko i:hover{
+        color: white;
+        transition: 0.5s;
+    }
+
+    nav li:hover{
+        border-bottom: 2px solid darkorchid;
+    }
+
+    nav ul li a {
+        font-size: 24px;
+    }
+
+    nav ul li a:hover {
+        color: darkorchid;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    #omnie {
+        min-height: 800px;
+        padding: 50px 20%;
+    }
+
+    #omnie p {
+        font-size: 26px;
+    }
+
+    #portfolio div{
+        width: 35%;
+        display: inline-block;
+        margin: 5px 0;
+    }
+
+    #portfolio div a img{
+        width: 46%;
+        margin: 0 auto;
+    }
+
+    #portfolio p {
+        font-size: 22px;
+    }
+
+    #media {
+        min-height: 300px;
+    }
+
+    #gallery img {
+        width: 25%;
+    }
+
+    footer {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    
+#omnie p {
+    font-size: 34px;
+    font-weight: 600
+}
+
+
+}
+
+
